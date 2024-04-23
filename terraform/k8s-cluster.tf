@@ -105,7 +105,7 @@ resource "yandex_compute_instance_group" "k8s-masters" {
 
     resources {
       cores  = 2
-      memory = 2
+      memory = 4
       core_fraction = 100
     }
 
@@ -179,7 +179,7 @@ resource "yandex_compute_instance_group" "k8s-workers" {
 
     resources {
       cores  = 2
-      memory = 2
+      memory = 4
       core_fraction = 100
     }
 
