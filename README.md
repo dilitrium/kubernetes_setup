@@ -40,7 +40,9 @@ $ /opt/kubernetes_setup/cluster_destroy.sh
 
 Результаты разворачивания инфрастурктуры и кластера:
 
-![Установка кластера k8s](https://github.com/MikhailRyzhkin/kubernetes_setup/assets/69116076/f5398dfe-74e4-4614-b9b9-8670fac5c9de)
+![create cluster k8s](https://github.com/vajierik/kubernetes_setup/assets/150177457/6db1715a-49b4-413e-b9d4-5faec0bd90ce)
+
+
 
 
 Полезные ссылки:
