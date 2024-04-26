@@ -72,7 +72,7 @@ https://stedolan.github.io/jq/
 
 ## Clone Kubespray repo and install Kubespray requirements
 ```
-$ git clone https://github.com/MikhailRyzhkin/kubernetes_setup
+$ git clone https://github.com/vajierik/kubernetes_setup
 cd /kubernetes_setup
-$ git clone https://github.com/MikhailRyzhkin/kubespray
+$ git clone https://github.com/vajierik/kubespray
 ```
