@@ -176,7 +176,7 @@ resource "yandex_compute_instance_group" "k8s-workers" {
   instance_template {
 
     name = "worker-{instance.index}"
-
+    platform_id = "standard-v2"
     resources {
       cores  = 2
       memory = 4
