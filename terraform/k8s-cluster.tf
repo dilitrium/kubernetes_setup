@@ -111,7 +111,7 @@ resource "yandex_compute_instance_group" "k8s-masters" {
 
     boot_disk {
       initialize_params {
-        image_id = "fd8j0uq7qcvtb65fbffl" # Ubuntu 20.04 LTS
+        image_id = "fd8vmcue7aajpmeo39kk" # Ubuntu 20.04 LTS
         size     = 10
         type     = "network-ssd"
       }
@@ -185,7 +185,7 @@ resource "yandex_compute_instance_group" "k8s-workers" {
 
     boot_disk {
       initialize_params {
-        image_id = "fd8j0uq7qcvtb65fbffl" # Ubuntu 20.04 LTS
+        image_id = "fd8vmcue7aajpmeo39kk" # Ubuntu 20.04 LTS
         size     = 10
         type     = "network-hdd"
       }
@@ -263,7 +263,7 @@ resource "yandex_compute_instance_group" "k8s-workers" {
 #
 #    boot_disk {
 #      initialize_params {
-#        image_id = "fd8j0uq7qcvtb65fbffl" # Ubuntu 20.04 LTS
+#        image_id = "fd8vmcue7aajpmeo39kk" # Ubuntu 20.04 LTS
 #        size     = 10
 #        type     = "network-hdd"
 #      }
