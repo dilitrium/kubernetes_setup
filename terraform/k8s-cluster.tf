@@ -128,7 +128,7 @@ resource "yandex_compute_instance_group" "k8s-masters" {
     }
 
     metadata = {
-      ssh-keys = "ubuntu:${file("/home/ubuntu/.ssh/id_rsa.pub")}"
+      ssh-keys = "ubuntu:${file("/home/ubuntu/.ssh/id_ed25519.pub")}"
     }
     
     network_settings {
@@ -202,7 +202,7 @@ resource "yandex_compute_instance_group" "k8s-workers" {
     }
 
     metadata = {
-      ssh-keys = "ubuntu:${file("/home/ubuntu/.ssh/id_rsa.pub")}"
+      ssh-keys = "ubuntu:${file("/home/ubuntu/.ssh/id_ed25519.pub")}"
     }
     network_settings {
       type = "STANDARD"
